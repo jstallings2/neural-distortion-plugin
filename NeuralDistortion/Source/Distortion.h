@@ -9,3 +9,20 @@
 */
 
 #pragma once
+#include "PluginProcessor.h"
+
+class Distortion : 
+
+{
+    
+public:
+    
+    
+private:
+    
+    NeuralDistortionAudioProcessor& audioProcessor;
+
+};
+
+
+
