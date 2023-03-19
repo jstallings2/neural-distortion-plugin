@@ -11,16 +11,23 @@
 #pragma once
 #include "PluginProcessor.h"
 
-class Distortion : 
+class Distortion
 
 {
     
 public:
     
+    Distortion(NeuralDistortionAudioProcessor&);
+   // ~Distortion() override;
+    
+    void processAudio(const AudioBuffer<float>& buffer);
+    
+    
     
 private:
     
-    NeuralDistortionAudioProcessor& audioProcessor;
+    
+    NeuralDistortionAudioProcessor& m_audioProcessor;
 
 };
 

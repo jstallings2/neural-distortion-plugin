@@ -9,3 +9,18 @@
 */
 
 #include "Distortion.h"
+
+Distortion::Distortion(NeuralDistortionAudioProcessor& p) :
+    m_audioProcessor(p)
+{
+    
+    
+}
+
+void Distortion::processAudio(const AudioBuffer<float> &buffer)
+{
+    
+    
+}
+
+
