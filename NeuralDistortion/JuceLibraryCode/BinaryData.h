@@ -38,39 +38,6 @@ namespace BinaryData
     extern const char*   Makefile;
     const int            MakefileSize = 166;
 
-    extern const char*   CMakeLists_txt2;
-    const int            CMakeLists_txt2Size = 35;
-
-    extern const char*   test_net_json;
-    const int            test_net_jsonSize = 5817;
-
-    extern const char*   CMakeLists_txt3;
-    const int            CMakeLists_txt3Size = 31;
-
-    extern const char*   Makefile2;
-    const int            Makefile2Size = 491;
-
-    extern const char*   test_net_json2;
-    const int            test_net_json2Size = 9912;
-
-    extern const char*   CMakeLists_txt4;
-    const int            CMakeLists_txt4Size = 39;
-
-    extern const char*   CMakeLists_txt5;
-    const int            CMakeLists_txt5Size = 38;
-
-    extern const char*   test_net_json3;
-    const int            test_net_json3Size = 9912;
-
-    extern const char*   CMakeLists_txt6;
-    const int            CMakeLists_txt6Size = 29;
-
-    extern const char*   CMakeLists_txt7;
-    const int            CMakeLists_txt7Size = 1000;
-
-    extern const char*   README_md;
-    const int            README_mdSize = 502;
-
     extern const char*   bad_lstm_json;
     const int            bad_lstm_jsonSize = 61156;
 
@@ -107,8 +74,8 @@ namespace BinaryData
     extern const char*   CholmodSupport;
     const int            CholmodSupportSize = 1900;
 
-    extern const char*   CMakeLists_txt8;
-    const int            CMakeLists_txt8Size = 713;
+    extern const char*   CMakeLists_txt2;
+    const int            CMakeLists_txt2Size = 713;
 
     extern const char*   Core;
     const int            CoreSize = 12948;
@@ -194,8 +161,8 @@ namespace BinaryData
     extern const char*   UmfPackSupport;
     const int            UmfPackSupportSize = 1382;
 
-    extern const char*   CMakeLists_txt9;
-    const int            CMakeLists_txt9Size = 25910;
+    extern const char*   CMakeLists_txt3;
+    const int            CMakeLists_txt3Size = 25910;
 
     extern const char*   conv_png;
     const int            conv_pngSize = 26633;
@@ -314,11 +281,11 @@ namespace BinaryData
     extern const char*   lstm_xsimd_tpp;
     const int            lstm_xsimd_tppSize = 8182;
 
-    extern const char*   README_md2;
-    const int            README_md2Size = 405;
+    extern const char*   README_md;
+    const int            README_mdSize = 405;
 
-    extern const char*   CMakeLists_txt10;
-    const int            CMakeLists_txt10Size = 1349;
+    extern const char*   CMakeLists_txt4;
+    const int            CMakeLists_txt4Size = 1349;
 
     extern const char*   conv_x_python_csv;
     const int            conv_x_python_csvSize = 2551;
@@ -368,20 +335,20 @@ namespace BinaryData
     extern const char*   lstm_y_python_csv;
     const int            lstm_y_python_csvSize = 2548;
 
-    extern const char*   CMakeLists_txt11;
-    const int            CMakeLists_txt11Size = 651;
+    extern const char*   CMakeLists_txt5;
+    const int            CMakeLists_txt5Size = 651;
 
-    extern const char*   CMakeLists_txt12;
-    const int            CMakeLists_txt12Size = 700;
+    extern const char*   CMakeLists_txt6;
+    const int            CMakeLists_txt6Size = 700;
 
     extern const char*   LICENSE;
     const int            LICENSESize = 1524;
 
-    extern const char*   README_md3;
-    const int            README_md3Size = 10987;
+    extern const char*   README_md2;
+    const int            README_md2Size = 10987;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 124;
+    const int namedResourceListSize = 113;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

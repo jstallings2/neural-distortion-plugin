@@ -10,7 +10,7 @@
 
 #pragma once
 #include "PluginProcessor.h"
-//#include <Libraries/RTNeural/RTNeural.h>
+#include "RTNeural-main/RTNeural/RTNeural.h"
 
 class Distortion
 
@@ -22,12 +22,13 @@ public:
    // ~Distortion() override;
     
     void processAudio(const AudioBuffer<float>& buffer);
+    auto loadModel();
     
     
     
 private:
     
-    
+
     NeuralDistortionAudioProcessor& m_audioProcessor;
 
 };
