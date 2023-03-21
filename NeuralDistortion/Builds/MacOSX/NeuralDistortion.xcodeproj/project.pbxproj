@@ -61,6 +61,7 @@
 		CB6594311AFFB5090567350B /* include_juce_audio_basics.mm */ = {isa = PBXBuildFile; fileRef = 4EF6C3273E16B76C164FC227; };
 		D07C2102B0FD71FCD0CCD71D /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 61D97C8F4C5D9AB9ED6025F4; };
 		D1CCFA0C667C26595C79CDF0 /* model_bench.cpp */ = {isa = PBXBuildFile; fileRef = 9A66E45E52369BAFDE269A23; };
+		D3014178F0EBBFF10166FBD0 /* DistortionGUI.cpp */ = {isa = PBXBuildFile; fileRef = 0D543D26834710283AD05438; };
 		D4CB4781892E33DABC834960 /* Accelerate.framework */ = {isa = PBXBuildFile; fileRef = 82E8BEF3E833DAB267DEDC4D; };
 		D829D7215F454C012C410AE3 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 33D19FCCD1139D56DF78592C; };
 		DE9BDDDC5DEFA4DDE4EB041E /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 6FD4C590D5431E838214C638; };
@@ -95,6 +96,7 @@
 		0B847456A797DE4369EB6047 /* TriangularMatrixMatrix.h */ /* TriangularMatrixMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TriangularMatrixMatrix.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h"; sourceTree = SOURCE_ROOT; };
 		0C00CF65CB4A5C2F21C96D11 /* CMakeLists.txt */ /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text.txt; name = CMakeLists.txt; path = "../../Source/RTNeural-main/bench/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		0CBF55FFF283576C8D317FD4 /* Random.h */ /* Random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Random.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/Core/Random.h"; sourceTree = SOURCE_ROOT; };
+		0D543D26834710283AD05438 /* DistortionGUI.cpp */ /* DistortionGUI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DistortionGUI.cpp; path = ../../Source/DistortionGUI.cpp; sourceTree = SOURCE_ROOT; };
 		0DF20E4D730708D95771B78C /* tests.cpp */ /* tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tests.cpp; path = "../../Source/RTNeural-main/tests/tests.cpp"; sourceTree = SOURCE_ROOT; };
 		0DF4B60292565997531C40B2 /* SparseLU_column_bmod.h */ /* SparseLU_column_bmod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SparseLU_column_bmod.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/SparseLU/SparseLU_column_bmod.h"; sourceTree = SOURCE_ROOT; };
 		0E0A50D8496749D9E79FFC3D /* MathFunctions.h */ /* MathFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MathFunctions.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/Core/arch/SVE/MathFunctions.h"; sourceTree = SOURCE_ROOT; };
@@ -138,6 +140,7 @@
 		208A4482A9F88372BEE41143 /* lapack.h */ /* lapack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = lapack.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/misc/lapack.h"; sourceTree = SOURCE_ROOT; };
 		20AD5CCF71005E119C3B1B7F /* MatrixCwiseBinaryOps.h */ /* MatrixCwiseBinaryOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MatrixCwiseBinaryOps.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.h"; sourceTree = SOURCE_ROOT; };
 		20BCE7FD35BBD649BE65FA33 /* CMakeLists.txt */ /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text.txt; name = CMakeLists.txt; path = "../../Source/RTNeural-main/modules/Eigen/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		224355F19DB8B30C8E304944 /* DistortionGUI.h */ /* DistortionGUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DistortionGUI.h; path = ../../Source/DistortionGUI.h; sourceTree = SOURCE_ROOT; };
 		227ADD302A2BF71D0E8FA970 /* ReshapedHelper.h */ /* ReshapedHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ReshapedHelper.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/Core/util/ReshapedHelper.h"; sourceTree = SOURCE_ROOT; };
 		23A6D3806863142B1FC88104 /* SelfAdjointEigenSolver.h */ /* SelfAdjointEigenSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SelfAdjointEigenSolver.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h"; sourceTree = SOURCE_ROOT; };
 		24A75DF8E73E415D176F2DD6 /* SparseSolverBase.h */ /* SparseSolverBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SparseSolverBase.h; path = "../../Source/RTNeural-main/modules/Eigen/Eigen/src/SparseCore/SparseSolverBase.h"; sourceTree = SOURCE_ROOT; };
@@ -802,6 +805,8 @@
 				E9C2402FDCB46F1C8C2FFE13,
 				3A61A28845A4837BD43C752B,
 				EF5958A4F22EE7388474A481,
+				0D543D26834710283AD05438,
+				224355F19DB8B30C8E304944,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -2192,6 +2197,7 @@
 				ED838EEF73E3A12E70878FDA,
 				ADDA503C30BA1E63DD3BA9C1,
 				C3F098F8FDCA5D455E3A7A2E,
+				D3014178F0EBBFF10166FBD0,
 				7BA6D5B62D1D767E189347F0,
 				CB6594311AFFB5090567350B,
 				5A2A98877F25EC05781485FF,
